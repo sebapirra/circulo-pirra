@@ -4,8 +4,9 @@
     padding: 0; 
     box-sizing: border-box;
     }
+    /* rgb(230, 207, 226);*/
 body {
-    background-color: rgb(230, 207, 226);
+    background-image: linear-gradient(to left, rgb(230, 207, 226), whitesmoke);
     }        
 
 .indexTitulo{color: rgb(165, 42, 144);
@@ -28,6 +29,14 @@ nav ul li a {
     margin: 10px;
     border-radius: 20px
 } 
+/*Transformaciones menu */
+nav ul li a:hover {
+    background-color: rgb(241, 224, 247);
+    
+}
+nav ul li:hover {
+    transform: scale(1.2);
+}
 .parrafoHome{
     font-family:'Roboto', sans-serif;
     margin: 290px 10px 10px 10px;
