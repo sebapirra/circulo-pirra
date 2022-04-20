@@ -12,7 +12,7 @@ body {
 .indexTitulo{color: rgb(165, 42, 144);
     text-align: center;
     font-size: 3rem;
-    padding: 1px;
+    padding: 1rem;
     font-family: 'Prompt', sans-serif;  }
 .centrarMenu{
     text-align: center;
@@ -24,10 +24,10 @@ nav ul li a {
     text-decoration: none;
     font-family:'Roboto', sans-serif;
     background-color: white;
-    font-size: 16px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 20px
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.8rem;
+    border-radius: 1rem;
 } 
 /*Transformaciones menu */
 nav ul li a:hover {
@@ -39,7 +39,7 @@ nav ul li:hover {
 }
 .parrafoHome{
     font-family:'Roboto', sans-serif;
-    margin: 290px 10px 10px 10px;
+    margin: 340px 10px 20px 10px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
@@ -119,29 +119,24 @@ form fieldset div label{
     padding: 10px 10px 160px 10px;
 }
 .tituloActiv{
-    background-color: rgb(231, 224, 190);
+    background-color: rgba(223, 247, 223, 0.514);
     font-size: 2.5rem;
-    margin: 50px 10px 10px 10px;
+    margin: 4rem 1rem 1rem 1rem;
 }
 .pAct{
     font-family:'Roboto', sans-serif;
-    margin: 10px 10px 10px 10px;
+    margin: 0.8rem;
     font-size: 1.2rem;
     font: bold;
     text-align: center;
     display: inline-block;
 }
 .individualActividades{
-    width: 500px;
-    margin: 50px 10px 10px 10px;
+    width: 30rem;
+    margin: 4rem 1rem 1rem 1rem;;
 }
 .centrarFotoActiv{
     text-align: center;
-}
-.centrarStaff{
-    text-align: center;
-    font-size: 20px;
-    margin: 50px;
 }
 main h3{
     margin: 50px 0px 20px;
@@ -168,4 +163,18 @@ main h3{
         text-align: center;
         align-items: center;
     }
+}
+.separacion-card{
+    margin: 1rem;
+    background-color: rgba(223, 247, 223, 0.514);
+}
+/*Estilos del parrafo en Staff*/
+.estilo-p{
+    font-size: 1.5rem;
+}
+.altura-footer{
+    font-size: 1rem;
+}
+.altura-imagen{
+    height: 10rem;
 }

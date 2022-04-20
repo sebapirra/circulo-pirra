@@ -5,35 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Staff</title>
+<!--Link del CSS de Bootstrap-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Link de mi CSS-->
     <link rel="stylesheet" href="../CSS/main.css">
 </head>
 <body>
-    <header>    
-        <h1 class="indexTitulo">STAFF</h1>
-    </header>
-    <div class="centrarMenu">
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li><a href="actividades.html">Actividades</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>   
-    <main class="centrarStaff">
-        <h3>María Paz Godoy - Psicologa conductal</h3>
-        <img src="../img/mariapaz.jpg" alt="Maria Paz Fernandez">
-        <h3>Fernanda Campitelli - Psicoanalista</h3>
-        <img src="../img/fernanda.jpg" alt="Fernanda Campitelli">
-        <h3>Juieta Ferreiro - Dra. Psiquiatra</h3>
-        <img src="../img/drjulieta.jpg" alt="Juieta Ferreiro">
+    <div class="padreSuperior">
+        <header>    
+            <h1 class="indexTitulo">STAFF</h1>
+        </header>
+        <div class="centrarMenu">
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </div>  
+    <main class="container-fluid">
+        <div class="row">
+            <p class="col-12 text-center estilo-p">Circulo Mujer es una Asociación civil sin fines de lucro, una organización no gubernamental dedicada a la asistencia de la mujer. La institución ha experimentado un continuo y progresivo crecimiento convirtiéndose en un referente de gran solidez e importancia por su función dentro del ámbito de la Salud Mental de la comunidad. Aquí les presentamos la base terapeutica de nuestra querida institución</p>
+        </div>
+        <section class="row d-flex justify-content-center">
+            
+                <div class="card col-4 separacion-card" style="width: 18rem;">
+                    <img src="../img/mariapaz.jpg" class="card-img-top altura-imagen" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">María Paz Godoy - Psicologa conductal</h3>
+                        <p class="card-text">Gracias a una amplia experiencia en su campo, las pacientes se sienten acompañadas logrando así una transferencia que logra increibles resultados en poco tiempo </p>
+                    
+                    </div>
+                </div>
+
+                <div class="card col-4 separacion-card" style="width: 18rem;">
+                    <img src="../img/fernanda.jpg" class="card-img-top altura-imagen" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Fernanda Campitelli - Psicoanalista</h3>
+                        <p class="card-text"> A través de la investigación de la teoría psicoanalítica articulada con la práctica clínica, ha logrado un gran equilibrio para la resolución de los conflictos de las pacientes </p>
+                    </div>
+                </div>
+
+                <div class="card col-4 separacion-card" style="width: 18rem;">
+                    <img src="../img/drjulieta.jpg" class="card-img-top altura-imagen" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Julieta Perez Aramburu - Dra. Psiquiatra</h3>
+                        <p class="card-text">Aplicando sus conocimientos médicos a un ambiente psicoanalitico ha sido un gran aporte para el tratamiento holistico de los malestares de nuestras concurrentes</p>
+                    </div>
+                </div>
+            
+        </section>
     </main>
     <footer class="footer">
-        <h4>Todos los derechos reservados</h4>
+        <h2 class="altura-footer">Todos los derechos reservados</h2>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
